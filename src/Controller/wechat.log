@@ -1,0 +1,40 @@
+[2018-05-12 04:41:15] NULL.INFO: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=9_A-Q1hWc-LKcfBLxq65K4gnol8LXdWMEWWyog7Kok0zMKYAoTSiQc2dXljIMhs8eXbxiJF-n_apim2h8hBcRENvU2hB5Zfbz_S3zV2zZUOSMQpekahN2uLaeZ9bAmjNja6g7yX7HQeKkPcrSvCKNaACAJRU HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 429
+User-Agent: GuzzleHttp/6.3.3 curl/7.59.0 PHP/7.2.4
+Content-Type: application/json
+
+{"touser":"oIwts0qGX0bcNkQw9lv0zz0wtGDg","template_id":"Q9PRvDO1sz9c2iXHIohkpgCl8aGNF60nFA7Y_Z_BhxU","url":"https:\/\/www.baidu.com","data":{"result":{"value":"您已提交领奖申请","color":"#F00"},"withdrawMoney":{"value":"xxxx元"},"withdrawTime":{"value":"2013-10-10 12:22:22"},"cardInfo":{"value":"xx银行(尾号xxxx)"},"arrivedTime":{"value":"预计xxxxxxx"},"remark":{"value":"预计将于xxxx到达您的银行卡"}}}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Sat, 12 May 2018 02:41:15 GMT
+Content-Length: 54
+
+{"errcode":0,"errmsg":"ok","msgid":276834203428208644}
+--------
+NULL  
+[2018-05-12 04:41:15] NULL.DEBUG: Request received: {"method":"GET","uri":"http://localhost/skeleton_demo/public/wechat","content-type":null,"content":""} 
+[2018-05-12 04:41:15] NULL.DEBUG: Server response created: {"content":"success"} 
+[2018-05-12 04:42:44] NULL.INFO: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=9_A-Q1hWc-LKcfBLxq65K4gnol8LXdWMEWWyog7Kok0zMKYAoTSiQc2dXljIMhs8eXbxiJF-n_apim2h8hBcRENvU2hB5Zfbz_S3zV2zZUOSMQpekahN2uLaeZ9bAmjNja6g7yX7HQeKkPcrSvCKNaACAJRU HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 447
+User-Agent: GuzzleHttp/6.3.3 curl/7.59.0 PHP/7.2.4
+Content-Type: application/json
+
+{"touser":"oIwts0qGX0bcNkQw9lv0zz0wtGDg","template_id":"Q9PRvDO1sz9c2iXHIohkpgCl8aGNF60nFA7Y_Z_BhxU","url":"https:\/\/www.baidu.com","data":{"result":{"value":"您已提交领奖申请","color":"#F00"},"withdrawMoney":{"value":"xxxx元","color":"#550038"},"withdrawTime":{"value":"2013-10-10 12:22:22"},"cardInfo":{"value":"xx银行(尾号xxxx)"},"arrivedTime":{"value":"预计xxxxxxx"},"remark":{"value":"预计将于xxxx到达您的银行卡"}}}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Sat, 12 May 2018 02:42:44 GMT
+Content-Length: 54
+
+{"errcode":0,"errmsg":"ok","msgid":276835691030396929}
+--------
+NULL  
+[2018-05-12 04:42:44] NULL.DEBUG: Request received: {"method":"GET","uri":"http://localhost/skeleton_demo/public/wechat","content-type":null,"content":""} 
+[2018-05-12 04:42:44] NULL.DEBUG: Server response created: {"content":"success"} 
